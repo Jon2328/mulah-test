@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulah</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <div class="container">
+    <img src="./assets/image/mulah_logo.png" class="mulah-logo" alt="Mulah Logo">
+    <p class="body-text1">Hello,<br> Welcome !</p>
+    <p class="body-text2">Check Your Loyalty Points & Rewards</p>
+    <div class="input-container">
+      <select id="country-code" class="input-country-code">
+        <option selected="selected">+60</option>
+        <option>+65</option>
+      </select>
+      <input id="phone-num" type="tel" class="input-phone-number" oninput="onPhoneNumberInput(event)" placeholder="Enter your mobile number">
+      <img class="input-tick" src="./assets/image/tick.svg">
+    </div>
+    <p class="error" id="error">Invalid Phone Number</p>
+    <button class="cta" onclick="checkLoyaltyPoint()">Check Loyalty Points</button>
+    <div class="powered-by-container">
+      <p class="powered-by">Powered by <a class="powered-by-link" href="https://MulahRewards.com" target="_blank">MulahRewards.com</a></p>
+    </div>
+    <script src="./js/index.js"></script>
+  </div>
+  
+
+</body>
+</html>

@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 640px;
+  margin: auto;
+  padding: 0px 2rem;
+}
+
+.container > .mulah-logo {
+  width: 50%;
+  margin: 15% auto 15%;
+}
+
+.container > .body-text1 {
+  font-family: CrimsonText;
+  font-size: 4.5rem;
+  letter-spacing: 0.2rem;
+  margin: 0px;
+}
+
+.container > .body-text2 {
+  color: var(--text-primary);
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin: 5% 0px;
+  font-style: italic;
+}
+
+.container > .input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.input-container > label {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.input-container  input[type="text"] {
+  border: 1px solid var(--text-primary);
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.5rem;
+  margin: 10px 0px 5px;
+}
+
+.input-container > .error {
+  margin: 0px;
+  color: var(--error);
+  font-style: italic;
+}
+
+.row-multi-input-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.row-multi-input-container > input[type=text] {
+  flex-shrink: 1;
+  flex-grow: 1;
+  min-width: 0px;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+#year {
+  flex-basis: 50%;
+}
+
+.checkbox-input-container {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-input-container > label {
+  font-style: italic;
+  margin-left: 5px;
+}
+
+.container > .cta {
+  border-radius: 60px;
+  background-color: var(--primary);
+  padding: 1rem 3rem;
+  color: #ffffff;
+  border: 0px;
+  margin: 5%;
+  font-size: 1.5rem;
+}
+
+.container > .cta:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.powered-by-container {
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid var(--text-primary);
+  padding: 1.5rem 0px;
+  width: 98%;
+  left: 1%;
+  text-align: center;
+}
+
+.powered-by-link {
+  color: var(--link);
+  text-decoration: none;
+  font-weight: bold;
+}

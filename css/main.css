@@ -1,0 +1,29 @@
+:root {
+  --primary: #f48309;
+  --link: #5a6d99;
+  --error: #b16569;
+  --text-primary: #646464;
+  --text-secondary: #F37521;
+}
+
+* {
+  box-sizing: border-box;
+  color: var(--text-primary);
+  font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 10px;
+  }
+}

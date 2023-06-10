@@ -1,0 +1,36 @@
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-Regular.ttf);
+}
+
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-Italic.ttf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: CrimsonText;
+  src: url(/assets/font/CrimsonText/CrimsonText-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}

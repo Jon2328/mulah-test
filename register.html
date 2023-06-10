@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulah</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/register.css">
+</head>
+<body>
+  <div class="container">
+    <img src="./assets/image/mulah_logo.png" class="mulah-logo" alt="Mulah Logo">
+    <p class="body-text1">Registration</p>
+    <p class="body-text2">Please fill up your details.</p>
+    <div class="input-container">
+      <label>Name</label>
+      <input type="text" id="name" placeholder="Enter Name">
+      <p class="error" id="error">*Please insert a name</p>
+    </div>
+    <div class="input-container">
+      <label>Birthday</label>
+      <div class="row-multi-input-container">
+        <input type="text" id="day" placeholder="DD">
+        <input type="text" id="month" placeholder="MM">
+        <input type="text" id="year" placeholder="YYYY">
+      </div>
+      
+      <p class="error" id="error">*Please insert your birthday</p>
+    </div>
+    <div class="input-container">
+      <label>Email</label>
+      <input type="text" id="email" placeholder="Email Address">
+      <p class="error" id="error">*Please insert a valid email address</p>
+      <div class="checkbox-input-container">
+        <input type="checkbox" id="no-email" name="no-email">
+        <label for="no-email"> No email address</label><br>
+      </div>
+    </div>
+
+    <button class="cta" onclick="checkLoyaltyPoint()">Continue</button>
+    <div class="powered-by-container">
+      <p class="powered-by">Powered by <a class="powered-by-link" href="https://MulahRewards.com" target="_blank">MulahRewards.com</a></p>
+    </div>
+    
+
+    <script src="./js/register.js"></script>
+  </div>
+  
+
+</body>
+</html>
