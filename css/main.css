@@ -12,8 +12,15 @@
   font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0px;
+  padding-bottom: 62px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media only screen and (max-width: 1024px) {

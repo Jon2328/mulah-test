@@ -18,6 +18,7 @@ function checkLoyaltyPoint() {
   const resultPhone = countryCode.value + phoneNum.value
   if (resultPhone === '+60173527250') {
     document.querySelector('#error').classList.remove('show')
+    localStorage.setItem('phone', resultPhone)
     window.location.href = "./register.html"
   } else {
     document.querySelector('#error').classList.add('show')
